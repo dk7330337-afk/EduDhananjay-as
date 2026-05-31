@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EduDhananjay</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f8f9fa;
+}
+
+/* Navbar */
+
+.navbar{
+background:#0d6efd;
+}
+
+.navbar-brand{
+font-size:30px;
+font-weight:bold;
+color:white !important;
+}
+
+.nav-link{
+color:white !important;
+margin-left:15px;
+font-weight:500;
+}
+
+.nav-link:hover{
+color:yellow !important;
+}
+
+/* Hero Section */
+
+.hero{
+padding:100px 0;
+background:linear-gradient(135deg,#0d6efd,#4f46e5);
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:bold;
+}
+
+.hero p{
+font-size:20px;
+margin-top:15px;
+}
+
+.hero-btn{
+margin-top:20px;
+}
+
+/* Banner */
+
+.banner{
+background:white;
+padding:50px;
+text-align:center;
+border-radius:15px;
+margin-top:-40px;
+box-shadow:0 0 20px rgba(0,0,0,.1);
+}
+
+.banner h2{
+font-weight:bold;
+}
+
+/* Course Section */
+
+.course-card{
+transition:.4s;
+border:none;
+}
+
+.course-card:hover{
+transform:translateY(-10px);
+}
+
+.pdf-btn{
+margin:5px;
+}
+
+footer{
+background:#0d6efd;
+color:white;
+padding:20px;
+margin-top:50px;
+text-align:center;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+
+<a class="navbar-brand" href="#">
+📚 EduDhananjay
+
+</a>
+
+<button class="navbar-toggler"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">About Us</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#courses">Courses</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact Us</a>
+</li>
+
+</ul>
+
+<div class="ms-3">
+
+<button class="btn btn-light">
+Login
+</button>
+
+<button class="btn btn-warning">
+Sign Up
+</button>
+
+</div>
+
+</div>
+
+</div>
+</nav>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<h1>
+Class 10th & 12th Complete Study Material
+</h1>
+
+<p>
+Notes, Practice Sets, MCQ Questions,
+Previous Year Papers and More.
+</p>
+
+<div class="hero-btn">
+
+<a href="#courses" class="btn btn-warning btn-lg">
+Explore Courses
+</a>
+
+</div>
+
+</div>
+
+<div class="col-lg-6 text-center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+class="img-fluid"
+width="400">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Banner -->
+
+<div class="container">
+
+<div class="banner">
+
+<h2>
+🎯 Lowest Price Educational Courses
+</h2>
+
+<p>
+Get Premium Notes, MCQ Questions and Practice Sets
+at Affordable Prices.
+</p>
+
+</div>
+
+</div>
+
+<!-- Courses -->
+
+<section id="courses" class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+Our Courses
+</h2>
+
+<div class="row">
+
+<!-- Class 10 -->
+
+<div class="col-md-6 mb-4">
+
+<div class="card course-card shadow">
+
+<div class="card-body">
+
+<h3>
+Class 10th
+</h3>
+
+<p>
+Complete Notes & Practice Material
+</p>
+
+<a href="class10.html"
+class="btn btn-primary">
+View Course
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Class 12 -->
+
+<div class="col-md-6 mb-4">
+
+<div class="card course-card shadow">
+
+<div class="card-body">
+
+<h3>
+Class 12th
+</h3>
+
+<p>
+Board Exam Preparation Material
+</p>
+
+<a href="class12.html"
+class="btn btn-success">
+View Course
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 EduDhananjay as | All Rights Reserved
+
+</footer>
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Class 12th Course</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container py-5">
+
+<h1 class="text-center mb-5">
+Class 12th Study Material
+</h1>
+
+<div class="card shadow">
+
+<div class="card-body text-center">
+
+<h3>Physics</h3>
+
+<a href="pdf/physics-notes.pdf"
+class="btn btn-primary m-2">
+Notes PDF
+</a>
+
+<a href="pdf/physics-practice.pdf"
+class="btn btn-success m-2">
+Practice Set PDF
+</a>
+
+<a href="pdf/physics-mcq.pdf"
+class="btn btn-danger m-2">
+MCQ Questions PDF
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Class 10th Course</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container py-5">
+
+<h1 class="text-center mb-5">
+Class 10th Study Material
+</h1>
+
+<div class="card shadow">
+
+<div class="card-body text-center">
+
+<h3>Science</h3>
+
+<a href="pdf/science-notes.pdf"
+class="btn btn-primary m-2">
+Notes PDF
+</a>
+
+<a href="pdf/science-practice.pdf"
+class="btn btn-success m-2">
+Practice Set PDF
+</a>
+
+<a href="pdf/science-mcq.pdf"
+class="btn btn-danger m-2">
+MCQ Questions PDF
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
